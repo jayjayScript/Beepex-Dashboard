@@ -58,14 +58,14 @@ const Overview = ({ icon, title, value, change, changeColor }) => {
         <Cards
           icon={circleIcon3}
           title="New Signups"
-          value="2,490"
+          value="1,490"
           change="+15%"
           changeColor="text-green-500"
         />
         <Cards
           icon={circleIcon4}
           title="New Signups"
-          value="2,490"
+          value="2,000"
           change="+15%"
           changeColor="text-green-500"
         />
