@@ -1,12 +1,12 @@
 import React from "react";
-import TransactionDetailsChart from "@/components/TransactionDetailsChart";
-import Cards from "@/components/Cards";
+import TransactionDetailsChart from "@/components/common/TransactionDetailsChart";
+import Cards from "@/components/common/Cards";
 import circleIcon from "../assets/Circle-Icon.png";
 import circleIcon2 from "../assets/Circle-Icon2.png";
 import circleIcon3 from "../assets/Circle-Icon3.png";
 import circleIcon4 from "../assets/Circle-Icon4.png";
 import ServiceDistributionChart from "@/components/serviceDistributor/ServiceDistributor";
-import TransactionsTable from "@/components/TransactionsTable";
+import TransactionsTable from "@/components/common/TransactionsTable";
 import { transactionsData } from "@/components/transactionData/transactionData";
 
 const Overview = ({ icon, title, value, change, changeColor }) => {

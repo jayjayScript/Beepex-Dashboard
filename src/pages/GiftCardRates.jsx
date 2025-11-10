@@ -1,9 +1,10 @@
+import GiftcardPage from '@/features/dashboard/giftcard-rates/GiftcardPage'
 import React from 'react'
 
 const GiftCardRates = () => {
   return (
     <div>
-        <h1>Gitf Card Rates</h1>
+        <GiftcardPage />
     </div>
   )
 }
